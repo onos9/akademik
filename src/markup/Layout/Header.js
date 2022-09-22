@@ -118,7 +118,7 @@ class Header extends Component{
 												<li><Link to={"/blog-details"}>Blog Details</Link></li>
 											</ul> */}
 										</li>
-										<li><Link to={'/gallery-masonary'}>Our Gallery 
+										<li><Link to={'/gallery'}>Our Gallery 
 										{/* <i className="fa fa-chevron-down"></i> */}
 										</Link>
 											{/* <ul className="sub-menu">

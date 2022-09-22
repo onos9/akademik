@@ -81,7 +81,7 @@ const Contact = () => {
 								</div>
 								<div className="row contact-box content-inner-5">
 									<div className="section-head text-center col-md-12">
-										<h2 className="text-secondry">Contact Me</h2>
+										<h2 className="text-secondry">Contact Us</h2>
 										<p className="m-b0">Hi! Kindly reach out to us for any questions, enquires and admission process. <i>Note: Don't forget to include the best way to reach back to you</i> </p>
 									</div>
 									<div className="dzFormMsg"></div>

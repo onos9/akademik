@@ -7,7 +7,8 @@ import Footer from '../Layout/Footer';
 import PageTitle from '../Layout/PageTitle';
 
 //images
-import masonary1 from './../../images/gallery/masonary/pic1.jpg';
+// import masonary1 from './../../images/gallery/masonary/pic1.jpg';
+import masonary1 from './../../images/1-min.jpeg';
 import masonary2 from './../../images/gallery/masonary/pic2.jpg';
 import masonary3 from './../../images/gallery/masonary/pic3.jpg';
 import masonary4 from './../../images/gallery/masonary/pic4.jpg';
