@@ -57,8 +57,8 @@ function BackgroundBlog(){
 							<div className="video-play">
 								<VideoPopup />
 							</div>
-							<h2>Let Your Kids Have an Amazing<br/>Time at the Park</h2>
-							<Link to={"./contect-us"} className="btn btn-md radius-xl">Read More</Link>
+							<h2>Let Your Kids Have an Amazing<br/>Time at the Light House playing park</h2>
+							<Link to={"./gallery"} className="btn btn-md radius-xl">Read More</Link>
 						</div>
 					</div>
 				</div>
@@ -74,8 +74,12 @@ function BackgroundBlog2(){
 					<div className="col-lg-12 col-md-12 col-sm-12 col-12  about-text"  style={{visibility: "visible", animationDuration: "2s", animationDelay: "0.2s", animationName: "fadeIn"}}>
 						<div className="section-head text-center">
 							<h4 className="text-white">Join Our New Session</h4>
-							<h2>Call To Enrol Your Child <br/><span className="text-yellow">222 4444 000</span></h2>
-							<Link to={"./contect-us"} className="btn btn-md radius-xl">Read More</Link>
+							<h2>Call To Enrol Your Child <br/><span className="text-yellow">080 6827 7138</span></h2>
+							WHATSAPP LINK WAS EMBEDED
+							<a href="https://api.whatsapp.com/send?phone=2348068277138&text=Good%20day%20Light%20House.%20I%20want%20to%20enroll%20my%20kid?" target="_blank" rel="noopener noreferrer" className="btn btn-md radius-xl">
+								Enroll Now!
+							</a>
+							{/* <Link to={"./contact-us"} className="btn btn-md radius-xl">Enroll Now!</Link> */}
 						</div>
 					</div>
 				</div>

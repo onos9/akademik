@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';	
-import  bnr1 from './../../images/gallery/overlayChildren.png';
-import  bnr2 from './../../images/main-slider/slide2.jpg';
-import  bnr3 from './../../images/main-slider/slide3.jpg';
+import bnr1 from './../../images/main-slider/light-house-2-blue-overlay.png';
+import bnr2 from './../../images/main-slider/light-house-blue-overlay.png';
+import bnr3 from './../../images/main-slider/light-house-classroom-blue-overlay.png';
 import Carousel from 'react-bootstrap/Carousel'
 
 const carouselBlog = [
