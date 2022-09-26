@@ -31,8 +31,8 @@ class Markup extends Component{
 			<BrowserRouter basename='/'>
 				 <div className="page-wraper">
 					<Switch>
-						<Route path='/' exact component={Index1} />
-						<Route path='/index-2' exact component={Index2} />
+						{/* <Route path='/' exact component={Index1} /> */}
+						<Route path='/' exact component={Index2} />
 						<Route path='/about-1' exact component={AboutUs1} /> 		
 						<Route path='/about-2' exact component={AboutUs2} /> 		
 						<Route path='/classes' exact component={Classes} /> 		
