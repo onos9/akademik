@@ -75,7 +75,7 @@ function BackgroundBlog2(){
 						<div className="section-head text-center">
 							<h4 className="text-white">Join Our New Session</h4>
 							<h2>Call To Enrol Your Child <br/><span className="text-yellow">080 6827 7138</span></h2>
-							WHATSAPP LINK WAS EMBEDED
+							{/* WHATSAPP LINK WAS EMBEDED */}
 							<a href="https://api.whatsapp.com/send?phone=2348068277138&text=Good%20day%20Light%20House.%20I%20want%20to%20enroll%20my%20kid?" target="_blank" rel="noopener noreferrer" className="btn btn-md radius-xl">
 								Enroll Now!
 							</a>
