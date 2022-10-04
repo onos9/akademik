@@ -36,7 +36,12 @@ const Contact = () => {
 											</div>
 											<div className="icon-content">
 												<h4 className="dlab-tilte m-b5">Phone</h4>
-												<p>Phone 01:(+032) 3456 7890 <br/> Phone 02: (+032) 3427 7670</p>
+												<p>
+													<a href='tel:+2348068277138'>Phone 01:(+234)80 6827 7138</a><br/>
+													<a href='tel:+2348030511273'>Phone 02:(+234)80 3051 1273</a>
+												</p>
+												{/* <a href="mailto:lla@llacedemy.ng">lla@llacedemy.ng</a>
+												<p><br/>Phone 02: (+234)80 3051 1273</p> */}
 											</div>
 										</div>
 									</div>
@@ -49,7 +54,7 @@ const Contact = () => {
 											</div>
 											<div className="icon-content">
 												<h4 className="dlab-tilte m-b5">Address</h4>
-												<p>Spring Store London Oxford Street, 012 United Kingdom</p>
+												<p>After Shammah Plaza, Welfare Quaters, Makurdi, Benue State, Nigeria</p>
 											</div>
 										</div>
 									</div>
@@ -62,22 +67,22 @@ const Contact = () => {
 											</div>
 											<div className="icon-content">
 												<h4 className="dlab-tilte m-b5">Email</h4>
-												<p>Example@msimple.net <br/> Info@Simplenet.net</p>
+												<p><a href="mailto:lla@llacedemy.ng">lla@llacedemy.ng</a><br/></p>
 											</div>
 										</div>
 									</div>
 								</div>
 								<div className="row content-inner-4">
-									<div className="banner-map col-md-12">										
-										<iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.3825624477!2d75.65046970649679!3d26.88544791796718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C+Rajasthan!5e0!3m2!1sen!2sin!4v1500819483219" 
+									<div className="banner-map col-md-12">						
+										<iframe title="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27182.236219387898!2d8.519810170636013!3d7.674486155269995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92e7a52e724db0c1!2sRCN%20HOME%20CELL-LIGHT%20HOUSE%20LEADING%20ACADEMY!5e0!3m2!1sen!2sng!4v1663437171723!5m2!1sen!2sng" 
 											className="align-self-stretch rounded-sm border-0" style={{width:"100%", height:"600px", }} allowfullscreen 
 										/>
 									</div>
 								</div>
 								<div className="row contact-box content-inner-5">
 									<div className="section-head text-center col-md-12">
-										<h2 className="text-secondry">Contact Me</h2>
-										<p className="m-b0">Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8</p>
+										<h2 className="text-secondry">Contact Us</h2>
+										<p className="m-b0">Hi! Kindly reach out to us for any questions, enquires and admission process. <i>Note: Don't forget to include the best way to reach back to you</i> </p>
 									</div>
 									<div className="dzFormMsg"></div>
 									<form method="post" className="dzForm col-md-12" ref={form} onSubmit={sendEmail}>

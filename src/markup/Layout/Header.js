@@ -37,13 +37,13 @@ class Header extends Component{
 							<div className="row d-flex justify-content-between">
 								<div className="dlab-topbar-left">
 									<ul>
-										<li><i className="fa fa-phone m-r5"></i> 001 1234 6789</li>
-										<li><i className="fa fa-map-marker m-r5"></i> 6701 Democracy Blvd, Suite 300, USA</li>
+										<li><a href='tel:+2348068277138'><i className="fa fa-phone m-r5"></i>+23480 6827 7138</a></li>
+										<li><i className="fa fa-map-marker m-r5"></i> After Shammah Plaza, Welfare Quaters, Makurdi, Benue State, Nigeria</li>
 									</ul>
 								</div>
 								<div className="dlab-topbar-right">
 									<ul>
-										<li><i className="fa fa-clock-o m-r5"></i> Opening Time : 9:30am-5:30pm</li>
+										<li><i className="fa fa-clock-o m-r5"></i> Opening Time : 7:00am-5:30pm (W.A.T)</li>
 									</ul>
 								</div>
 							</div>
@@ -69,52 +69,63 @@ class Header extends Component{
 										<Link to={"./"} className="dez-page"><img src={logo} alt="" /></Link>
 									</div>
 									<ul className="nav navbar-nav">	
-										<li className="active"><Link to={'#'}>Home <i className="fa fa-chevron-down"></i></Link>
+										<li className="active"><Link to={'/index-2'}>Home 
+										{/* <i className="fa fa-chevron-down"></i> */}
+										</Link>
+										{/* BELOW IS THE TWO HOME TEMPLATE 
 											<ul className="sub-menu">
 												<li><Link to={"./"}>Home 1</Link></li>
 												<li><Link to={"/index-2"}>Home 2</Link></li>
-											</ul>	
+											</ul>	 */}
 										</li>
-										<li><Link to={'#'}>About <i className="fa fa-chevron-down"></i></Link>
-											<ul className="sub-menu">
+										<li><Link to={'about-2'}>About 
+										{/* <i className="fa fa-chevron-down"></i> */}
+										</Link>
+											{/* <ul className="sub-menu">
 												<li><Link to={"/about-1"}>About Us 1</Link></li>
 												<li><Link to={"/about-2"}>About Us 2</Link></li>
-											</ul>
+											</ul> */}
 										</li>
-										<li><Link to={'#'}>Classes <i className="fa fa-chevron-down"></i></Link>
-											<ul className="sub-menu">
+										<li><Link to={'/classes'}>Classes 
+										{/* <i className="fa fa-chevron-down"></i> */}
+										</Link>
+											{/* <ul className="sub-menu">
 												<li><Link to={"/classes"}>Classes</Link></li>
 												<li><Link to={"/classes-details"}>Classes Details</Link></li>
-											</ul>
+											</ul> */}
 										</li>
-										<li><Link to={'#'}>Teachers <i className="fa fa-chevron-down"></i></Link>
-											<ul className="sub-menu">
+										<li><Link to={'/teachers'}>Teachers {/**<i className="fa fa-chevron-down"></i> */} </Link>
+											{/* <ul className="sub-menu">
 												<li><Link to={"/teachers"}>Teachers</Link></li>
 												<li><Link to={"/teachers-details"}>Teachers Details</Link></li>
-											</ul>
+											</ul> */}
 										</li>
-										<li><Link to={'#'}>Pages <i className="fa fa-chevron-down"></i></Link>
-											<ul className="sub-menu">
+										<li><Link to={'/faqs'}>FAQs {/* <i className="fa fa-chevron-down"></i> */}</Link>
+											{/* <ul className="sub-menu">
 												<li><Link to={"/coming-soon"}>Comign Soon</Link></li>
 												<li><Link to={"/faqs"}>Faqs</Link></li>
 												<li><Link to={"/event"}>Event</Link></li>
 												<li><Link to={"/event-details"}>Event Details</Link></li>
 												<li><Link to={"/error-404"}>Error 404</Link></li>
-											</ul>
+											</ul> */}
 										</li>
-										<li><Link to={'#'}>Blog <i className="fa fa-chevron-down"></i></Link>
-											<ul className="sub-menu">
+										<li><Link to={'/blog-classic-grid'}>Blog 
+										{/* THIS IS THE DROP-DOWN ICON <i className="fa fa-chevron-down"></i> */}
+										</Link>
+											{/* <ul className="sub-menu">
 												<li><Link to={"/blog-standard"}>Standard</Link></li>
 												<li><Link to={"/blog-classic-grid"}>Classic</Link></li>
 												<li><Link to={"/blog-details"}>Blog Details</Link></li>
-											</ul>
+											</ul> */}
 										</li>
-										<li><Link to={'#'}>Our Gallery <i className="fa fa-chevron-down"></i></Link>
-											<ul className="sub-menu">
+										<li><Link to={'/gallery'}>Our Gallery 
+										{/* <i className="fa fa-chevron-down"></i> */}
+										</Link>
+											{/* <ul className="sub-menu">
 												<li><Link to={"/gallery"}>Gallery Grid</Link></li>
 												<li><Link to={"/gallery-masonary"}>Gallery Masonary</Link></li>
 												<li><Link to={"/gallery-filter"}>Gallery Tiles Filter</Link></li>
-											</ul>
+											</ul> */}
 										</li>
 										<li><Link to={"/contact-us"}>Contact Us</Link></li>
 									</ul>		

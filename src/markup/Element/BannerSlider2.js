@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';	
-import  bnr1 from './../../images/main-slider/slide1.jpg';
-import  bnr2 from './../../images/main-slider/slide2.jpg';
-import  bnr3 from './../../images/main-slider/slide3.jpg';
+import bnr1 from './../../images/main-slider/light-house-2-blue-overlay.png';
+import bnr2 from './../../images/main-slider/light-house-blue-overlay.png';
+import bnr3 from './../../images/main-slider/light-house-classroom-blue-overlay.png';
 import Carousel from 'react-bootstrap/Carousel'
 
 const carouselBlog = [
+	{image: bnr1 },	
 	{image: bnr2 },	
 	{image: bnr3 },	
-	{image: bnr1 },	
 ];
 
 class BannerSlider2 extends Component{
@@ -28,9 +28,9 @@ class BannerSlider2 extends Component{
 							<div className="slide-content">
 								<div className="slide-content-box container">
 									<div className="slide-content-area">
-										<h2 className="slider-title">Children Academy <span>First ReseaArchers</span></h2>
-										<p>Children's Academy will provide a stimulating and safe environment for children ages three month</p>
-										<Link to={"./contect-us"} className="btn btn-md kids-btn radius-xl">Join us</Link>
+										<h2 className="slider-title" style={{color:"white"}}>Children Transformation <span>is our First Piority</span></h2>
+										<p style={{color:"white"}}>Children's Academy will provide a stimulating and safe environment for children ages three month</p>
+										<Link to={"./contact-us"} className="btn btn-md kids-btn radius-xl">Join us</Link>
 									</div>
 								</div>
 							</div>	

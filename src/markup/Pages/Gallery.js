@@ -13,11 +13,14 @@ import gallery3 from './../../images/gallery/pic3.jpg';
 import gallery4 from './../../images/gallery/pic4.jpg';
 import gallery5 from './../../images/gallery/pic5.jpg';
 import gallery6 from './../../images/gallery/pic6.jpg';
+import gallery7 from './../../images/gallery/pic7.jpg';
+import gallery8 from './../../images/gallery/pic8.jpg';
+import gallery9 from './../../images/gallery/pic9.jpg';
 
 const galleryBlog =[
 	{images: gallery1 }, {images: gallery2 }, {images: gallery3 },
 	{images: gallery4 }, {images: gallery5 }, {images: gallery6 },
-	{images: gallery1 }, {images: gallery2 }, {images: gallery3 },
+	{images: gallery7 }, {images: gallery8 }, {images: gallery9 },
 	{images: gallery4 }, {images: gallery5 }, {images: gallery6 }
 ];
 // Masonry section

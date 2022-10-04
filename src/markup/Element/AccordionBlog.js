@@ -4,29 +4,35 @@ import { Accordion,Card, } from 'react-bootstrap';
 	
 const defaultAccordion = [
 	{
-	  title: '500 new items in the toy collection',
+	  title: 'How do I enroll as a parent?',
 	  text:
-		'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.',
+		`You go to the school's admin block, get the admission form, fill and submit it with the necessary documents then proceed to payment of tuition. N/B: Children seeking admission into Kindergarten Two to Grade six will need to write a diagnostic test. Upon making that test, then payment for tuition can be made.`,
 	},
 	{
-	  title: 'Throwing birthday parties is fun and easy',
+	  title: 'How is the payment system',
 	  text:
-		'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.',
+		`Payment for tuition can be made in the bank or via a bank app transfer for which receipt must be generated as proof of payment. 
+
+		N/B: Payment for a new intake should be wholesome. 
+		
+		N/B: All fees both for new and returning pupils should be paid before resumption.`,
 	},
 	{
-	  title: 'Multiple benefits from buying a membership',
+	  title: 'How much is the school form?',
 	  text:
-		'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.',
+		`The school form is currently sold at very discounted price for N2500.`,
 	},
 	{
-	  title: 'Fresh snacks and beverages for everyone',
+	  title: 'What is the appropriate time for daily delivery and pickup of children?',
 	  text:
-		'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.',
+		`Children are to resume school daily from 7 to 8am.		
+		All children are to be picked on or before 2:30 latest.
+		A fine of 1000 will be required of the parent everytime you pick a child late from school.`,
 	},
 	{
-	  title: 'Over 1 000 visitors for the last year',
+	  title: 'What curriculum does the school run?',
 	  text:
-		'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.',
+		`We are a Christian school that runs the British curriculum with a Nigerian blend.`,
 	},
 		
 ]	
